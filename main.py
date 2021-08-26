@@ -1,8 +1,7 @@
 def sum_of_squares(a):
 	sum = 0
-	for i in range(a + 1):
-		mult = i * i
-		sum += mult
+	for i in a
+		sum += a[i] * a[i]
 
 def test_one():
     assert sum_of_squares([1,2,3]) == 14
